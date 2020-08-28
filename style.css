@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+        box-sizing: border-box;
+        }
+
+
+body{
+        background-color: #E5E5E5;
+        }
+        
+        header{
+        background-color: #001E2E;
+        padding: 30px 0;
+        text-align: center;
+        }
+        
+        #patient {
+        background-color: #FFFFFF;
+        width: 592px;
+        height: 648px;
+        margin-left: 112px;
+        margin-top: 160px;
+        border: 15px hidden #0191DB;
+        border-width: medium;
+        padding: 50px;
+        margin-top: 72px;
+        margin-bottom: 72px;
+        margin-left: 112px;
+        margin-right: 32px;
+        }
+
+        
+        #doctor {
+        background-color: #FFFFFF;
+        width: 592px;
+        height: 648px;
+        margin-right: 112px;
+        margin-top: 160px;
+        border: 15px hidden #0191DB;
+        border-width: medium;
+        padding: 50px;
+        margin-top: 72px;
+        margin-bottom: 72px;      
+        }
+
+              
+        .row {
+        display: flex;
+        }
+              
+        .column {
+        flex: 50%;
+        padding: 32px;
+        text-align: center;
+        
+        }
+        
+        h1{
+        font-family: Catamaran;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        margin: 50px 0 15px;
+        }
+        
+        p{
+        color: #728189;
+        font-family: Asap;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        }
+
+        .align{
+        margin-left: 73px;
+        margin-right: 71px;
+        margin-bottom: 0;
+        margin-top: 15px;
+        }
+        
+        .btn{
+        position: static;
+        width: 384px;
+        height: 56px;
+        left: 104px;
+        top: 209px;
+        background: #0191DB;
+        border-radius: 4px;
+        flex: none;
+        order: 1;
+        align-self: center;
+        margin: 66px;
+        margin-bottom: 112px;
+        }
+
+        .btn:hover {opacity: 3}
+        
+        h2{
+        font-family: Asap;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #F4F4F6;
+        }
+
+        footer{
+        padding: 30px 0;
+        margin-top:30px;
+        text-align: center;
+        }
+                
+        .footer{
+        font-family: 'Indie Flower', cursive;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color:black;
+        }
+        

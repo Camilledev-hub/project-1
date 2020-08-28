@@ -1,0 +1,14 @@
+<svg width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="68" cy="68" r="68" fill="#E6F4FB"/>
+<path d="M95 98.5H44.5L48.5 92L53.5 88.5L54 91.5L55.5 97L63 97.5L67 96.5L70 92.5L74 91.5L80.5 84.5L91.5 92L95 98.5Z" fill="white"/>
+<path d="M73.5 78L64.5 77L57 70L56.5 60.5L65.5 56.5L70 51L76 58L83.5 60.5L83 71L73.5 78Z" fill="white"/>
+<path d="M56 60.5H48L50.5 49.5L60 40L69.5 37.5L83 42L91 54L91.5 64.5L97.5 79.5L95.5 83.5L86 87L80 82.5V74L82 71L83.8125 60.5L73.5 55.5L70 50.5L66 56.5L56 60.5Z" fill="#0191DB"/>
+<circle cx="44" cy="70" r="3" fill="#0191DB"/>
+<path d="M53.8855 87.0374C49.9011 89.83 46.7077 93.6068 44.6162 98" stroke="#001E2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M95.1547 98C92.0118 91.3627 86.4616 86.3593 79.8359 83.833" stroke="#001E2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M69.8854 50C69.8854 50 66.0614 59.6 56.4694 59.9867C54.7598 65.7188 56.8809 71.9039 61.7485 75.3806C66.6161 78.8572 73.1548 78.8572 78.0224 75.3806C82.89 71.9039 85.0111 65.7188 83.3014 59.9867C73.7068 59.592 69.8854 50 69.8854 50Z" stroke="#001E2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M43.8855 74C46.0946 74 47.8855 72.2091 47.8855 70C47.8855 67.7909 46.0946 66 43.8855 66C41.6764 66 39.8855 67.7909 39.8855 70C39.8855 72.2091 41.6764 74 43.8855 74Z" stroke="#001E2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M79.8855 82C79.8855 87.5228 75.4083 92 69.8855 92C64.3627 92 59.8855 87.5228 59.8855 82" stroke="#001E2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47.8855 70.2507C51.4189 71.163 53.887 74.3508 53.8855 78V92C53.8855 95.3137 56.5718 98 59.8855 98H63.8855C67.1986 97.9985 69.884 95.3131 69.8855 92" stroke="#001E2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47.8855 60C47.8855 47.8497 57.7352 38 69.8855 38C82.0358 38 91.8855 47.8497 91.8855 60V65.536C91.8859 67.1606 92.2161 68.7682 92.8562 70.2613L96.5335 78.824C97.397 80.8295 96.4926 83.157 94.5015 84.0533C91.6073 85.3111 88.5707 86.212 85.4588 86.736" stroke="#001E2E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
