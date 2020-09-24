@@ -52,55 +52,55 @@ table {
         }
 
 
-body{
+        body{
         background-color: #E5E5E5;
+        max-width: 100%;
         }
-        
+
         header{
         background-color: #001E2E;
         padding: 30px 0;
         text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
         }
         
         #patient {
         background-color: #FFFFFF;
-        width: 592px;
-        height: 648px;
-        margin-left: 112px;
-        margin-top: 160px;
-        border: 15px hidden #0191DB;
-        border-width: medium;
-        padding: 50px;
+        padding:50px 0;
+        margin: 0 auto;
         margin-top: 72px;
         margin-bottom: 72px;
-        margin-left: 112px;
-        margin-right: 32px;
+        margin-right: 64px;
         }
 
         
         #doctor {
-        background-color: #FFFFFF;
-        width: 592px;
-        height: 648px;
-        margin-right: 112px;
-        margin-top: 160px;
-        border: 15px hidden #0191DB;
-        border-width: medium;
-        padding: 50px;
-        margin-top: 72px;
-        margin-bottom: 72px;      
+         background-color: #FFFFFF;
+         padding:50px 0;
+         margin: 0 auto;
+         margin-top: 72px;
+         margin-bottom: 72px;   
         }
-
-              
+     
         .row {
         display: flex;
+        max-width:1328px;
+        margin:0 auto;
         }
-              
-        .column {
-        flex: 50%;
-        padding: 32px;
-        text-align: center;
+
+        @media only screen and (max-width: 1000px) {
+           .row {
+              flex-direction: column;
+           }
+
+           #patient {
+              margin-right: 0;
+           }
+         }
         
+        .column{
+         text-align: center;
         }
         
         h1{
@@ -124,25 +124,18 @@ body{
         }
 
         .align{
-        margin-left: 73px;
-        margin-right: 71px;
-        margin-bottom: 0;
-        margin-top: 15px;
+        margin:15px 71px 0 73px;
         }
         
         .btn{
         position: static;
         width: 384px;
         height: 56px;
-        left: 104px;
-        top: 209px;
+        margin:0 auto;
+        margin-top: 66px;
         background: #0191DB;
         border-radius: 4px;
-        flex: none;
-        order: 1;
         align-self: center;
-        margin: 66px;
-        margin-bottom: 112px;
         }
 
         .btn:hover {opacity: 3}
@@ -165,9 +158,8 @@ body{
                 
         .footer{
         font-family: 'Indie Flower', cursive;
+        color: black;
         font-style: normal;
         font-weight: 300;
         font-size: 20px;
-        color:black;
         }
-        
